@@ -16,14 +16,21 @@ module.exports = {
         dodgerBlue: '#1864ab',
         greyBack: '#ced4da',
         greyBackTrans: '#ced4dab3',
-        normalColor: '#495057'  
+        normalColor: '#495057',
+        orangeBack: '#fd7e14',
+        orangeText: '#d9480f',
+        purpleBack: '#4c6ef5'
       },
       transitionDuration: {
         '2000': '2000ms',
         '60000': '60000ms'
       },
       screens: {
-        'custom-sm': { 'max': '280px'}
+        'ipad': '641px',
+        'laptop': '1059px', 
+        'mobile': { 'max': '640px' },
+        'custom-sm': { 'max': '485px' },
+        'custom-xm': {'max': '325px'}  
       }
     }
   },
